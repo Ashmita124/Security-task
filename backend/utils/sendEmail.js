@@ -20,7 +20,7 @@ const sendEmail = async (options) => {
         pass: process.env.EMAIL_PASS,
       },
     });
-
+// 
     // Verify SMTP connection
     await transporter.verify();
     console.log('SMTP Server is ready to send emails');
