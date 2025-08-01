@@ -1010,3 +1010,4 @@ exports.resetPassword = exports.resetPassword;
 exports.deleteCustomer = exports.deleteCustomer;
 exports.uploadImage = exports.uploadImage;
 exports.getMe = exports.getMe;
+// 
