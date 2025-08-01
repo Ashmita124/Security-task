@@ -46,7 +46,7 @@ exports.createItem = asyncHandler(async (req, res, next) => {
     if (existingItem) {
         return res.status(400).json({ message: "Item already exists" });
     }
-
+// 
     // Validate category and subcategory
     const foundCategory = await Category.findById(category);
     const foundSubcategory = await Subcategory.findById(subcategory);
