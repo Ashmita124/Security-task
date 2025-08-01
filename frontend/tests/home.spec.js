@@ -67,4 +67,4 @@ test('Home page displays items correctly', async ({ page }) => {
     await expect(firstTrendingItem).toContainText('12'); // Price check
 });
 
-
+// 
