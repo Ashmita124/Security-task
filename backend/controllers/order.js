@@ -16,7 +16,7 @@ exports.createOrder = async (req, res) => {
             totalPrice,
             orderStatus,
         });
-
+// 
         // Save the order to the database
         const order = await newOrder.save();
         res.status(201).json(order);
