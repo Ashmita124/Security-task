@@ -150,3 +150,4 @@ customerSchema.methods.matchOtp = async function (enteredOtp) {
   };
 
 module.exports = mongoose.models.Customer || mongoose.model("Customer", customerSchema);
+// 
